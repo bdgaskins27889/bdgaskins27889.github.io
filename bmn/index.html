@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="BarbWire Media Network is an independent North Carolina digital newsroom covering public affairs, criminal justice, community accountability, technology, culture and the stories behind the headlines." />
+  <meta property="og:title" content="BarbWire Media Network | Put It on the Record" />
+  <meta property="og:description" content="Independent news, public affairs & culture. Reporting North Carolina and the stories behind the headlines." />
+  <meta property="og:image" content="assets/bmn-banner.png" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <title>BarbWire Media Network | Put It on the Record</title>
+  <style>
+    :root { --bg:#070707; --panel:#111; --panel2:#181818; --red:#e51f2a; --text:#f5f5f5; --muted:#b8b8b8; --line:#292929; }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,Helvetica,sans-serif;line-height:1.55}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1180px,92%);margin:auto}.eyebrow{letter-spacing:.22em;text-transform:uppercase;font-weight:800;font-size:.75rem;color:#ff626b}.muted{color:var(--muted)}
+    nav{position:sticky;top:0;z-index:20;background:rgba(7,7,7,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+    nav .inner{height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.05em}.brand img{width:46px;height:46px;border-radius:9px;object-fit:cover}.links{display:flex;gap:22px;font-size:.9rem;color:#ddd}.links a:hover{color:#fff}.pill{border:1px solid #444;padding:9px 14px;border-radius:999px}.pill.red{background:var(--red);border-color:var(--red);font-weight:800}
+    header{position:relative;min-height:650px;display:grid;align-items:end;background:linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,.35)),url('assets/bmn-banner.png') center/cover no-repeat;border-bottom:1px solid var(--line)}
+    header .hero{padding:90px 0 70px;max-width:760px}h1{font-size:clamp(3rem,7vw,6rem);line-height:.93;margin:.18em 0 .18em;letter-spacing:-.05em}.hero p{font-size:clamp(1.05rem,2vw,1.35rem);max-width:690px;color:#e4e4e4}.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 18px;border-radius:7px;border:1px solid #555;font-weight:800}.btn.primary{background:var(--red);border-color:var(--red)}.btn:hover{transform:translateY(-1px)}
+    .strip{border-bottom:1px solid var(--line);background:#0c0c0c}.strip .inner{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line)}.stat{background:#0c0c0c;padding:22px 26px}.stat b{display:block;font-size:1.05rem}.stat span{font-size:.85rem;color:var(--muted)}
+    section{padding:82px 0;border-bottom:1px solid var(--line)}h2{font-size:clamp(2rem,4vw,3.4rem);line-height:1.05;margin:.2em 0 .35em;letter-spacing:-.035em}.lead{font-size:1.13rem;color:#d7d7d7;max-width:800px}
+    .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.card{background:linear-gradient(180deg,#151515,#0d0d0d);border:1px solid var(--line);border-radius:14px;padding:26px}.card h3{margin:.15em 0 .4em;font-size:1.25rem}.icon{font-size:1.5rem}.card p{color:#bbb;margin-bottom:0}
+    .standards{display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:center}.standards ul{padding-left:0;list-style:none}.standards li{margin:11px 0;padding-left:31px;position:relative;color:#ddd}.standards li:before{content:'✓';position:absolute;left:0;color:#fff;background:var(--red);border-radius:3px;padding:0 5px;font-weight:900}
+    .founder{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px;align-items:center}.founder img{width:100%;border-radius:16px;border:1px solid var(--line)}
+    .pubs{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:30px}.pub{padding:20px 12px;text-align:center;border:1px solid var(--line);background:#101010;border-radius:10px;font-family:Georgia,serif;font-weight:700}
+    .verify{background:radial-gradient(circle at 80% 10%,rgba(229,31,42,.18),transparent 35%),#0c0c0c}.verifybox{display:grid;grid-template-columns:1.25fr .75fr;gap:24px;background:#111;border:1px solid #333;border-radius:16px;padding:32px}.credential{border-left:4px solid var(--red);padding-left:18px}.credential b{font-size:1.45rem}.credential small{display:block;color:#aaa;margin-top:6px}
+    .coming{padding:65px 0;text-align:center;background:#111}.coming h2{margin-bottom:10px}.footer{padding:34px 0;color:#999;font-size:.86rem}.footer .inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    @media(max-width:900px){.links{display:none}.strip .inner{grid-template-columns:1fr 1fr}.grid3{grid-template-columns:1fr}.standards,.founder,.verifybox{grid-template-columns:1fr}.pubs{grid-template-columns:1fr 1fr}header{min-height:590px}.founder img{max-width:620px}}
+    @media(max-width:520px){.strip .inner,.pubs{grid-template-columns:1fr}.hero{padding-top:65px}.btn{width:100%}}
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="wrap inner">
+      <a class="brand" href="#top"><img src="assets/bmn-logo.png" alt="BMN logo"><span>BARBWIRE MEDIA NETWORK</span></a>
+      <div class="links"><a href="#about">About</a><a href="#coverage">Coverage</a><a href="#standards">Standards</a><a href="#publisher">Publisher</a><a class="pill" href="#press">Press</a></div>
+    </div>
+  </nav>
+
+  <header id="top">
+    <div class="wrap hero">
+      <div class="eyebrow">Independent Digital News • Public Affairs • Culture</div>
+      <h1>PUT IT ON<br>THE RECORD.</h1>
+      <p>BarbWire Media Network is building an independent North Carolina newsroom centered on original reporting, public records, interviews, community accountability, culture and the stories behind the headlines.</p>
+      <div class="cta">
+        <a class="btn primary" href="#press">Press & Credential Verification</a>
+        <a class="btn" href="BMN_Press_Credential_Media_Dossier_v1.1.pdf">View Media Dossier</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="strip"><div class="wrap inner">
+    <div class="stat"><b>North Carolina</b><span>Primary coverage footprint</span></div>
+    <div class="stat"><b>Original Reporting</b><span>Documents, interviews & public records</span></div>
+    <div class="stat"><b>Independent</b><span>Digital-first newsroom</span></div>
+    <div class="stat"><b>BMN-001</b><span>Public credential verification</span></div>
+  </div></div>
+
+  <section id="about"><div class="wrap">
+    <div class="eyebrow">About BMN</div><h2>A newsroom built around evidence, access and community.</h2>
+    <p class="lead">BarbWire Media Network produces original reporting, interviews, public-affairs coverage, multimedia journalism, commentary and community-centered storytelling. BMN distinguishes reported journalism from opinion, commentary, satire, entertainment and sponsored material through clear labeling.</p>
+  </div></section>
+
+  <section id="coverage"><div class="wrap">
+    <div class="eyebrow">Coverage</div><h2>What BMN covers</h2>
+    <div class="grid3">
+      <div class="card"><div class="icon">🏛️</div><h3>Government & Public Affairs</h3><p>Local and state government, public institutions, policy implementation, elections and civic information.</p></div>
+      <div class="card"><div class="icon">⚖️</div><h3>Justice & Accountability</h3><p>Courts, criminal justice, reentry, public records, institutional accountability and community impact.</p></div>
+      <div class="card"><div class="icon">🎙️</div><h3>People & Community</h3><p>Interviews, Eastern North Carolina stories, community voices, culture, technology and emerging issues.</p></div>
+    </div>
+  </div></section>
+
+  <section id="standards"><div class="wrap standards">
+    <div><div class="eyebrow">Editorial Standards</div><h2>Receipts over rumors.</h2><p class="lead">BMN is committed to accuracy, transparency, attribution and responsible newsgathering.</p></div>
+    <div class="card"><ul>
+      <li>Primary documents whenever reasonably available</li><li>Sources and disputed claims clearly attributed</li><li>News separated from opinion and commentary</li><li>Material factual errors corrected transparently</li><li>Conflicts disclosed when relevant to coverage</li><li>AI-assisted presentation does not replace verification</li>
+    </ul></div>
+  </div></section>
+
+  <section id="publisher"><div class="wrap founder">
+    <img src="assets/barbara-founder.png" alt="Barbara D. Gaskins, Founder and Publisher of BarbWire Media Network">
+    <div><div class="eyebrow">Founder & Publisher</div><h2>Barbara D. Gaskins</h2>
+      <p class="lead">Barbara D. Gaskins is the Founder and Publisher of BarbWire Media Network. Her published commentary has appeared in The Washington Post, The News & Observer, The Charlotte Observer, The Durham Herald-Sun and The Daily Reflector.</p>
+      <p class="muted">Her coverage interests include public affairs, criminal justice, reentry, community violence intervention, government accountability, technology, artificial intelligence and community affairs.</p>
+    </div>
+  </div></section>
+
+  <section><div class="wrap"><div class="eyebrow">Selected Publication Record</div><h2>Published beyond BMN</h2>
+    <p class="lead">BMN distinguishes original works from syndicated placements and from independent profiles or interviews.</p>
+    <div class="pubs"><div class="pub">The Washington Post</div><div class="pub">The News & Observer</div><div class="pub">The Charlotte Observer</div><div class="pub">The Durham Herald-Sun</div><div class="pub">The Daily Reflector</div></div>
+  </div></section>
+
+  <section id="press" class="verify"><div class="wrap">
+    <div class="eyebrow">Press & Credential Verification</div><h2>Verify BMN media affiliation.</h2>
+    <div class="verifybox">
+      <div class="credential"><b>Barbara D. Gaskins • BMN-001</b><small>Founder & Publisher / Correspondent</small><p>This newsroom-issued credential verifies affiliation with BarbWire Media Network for legitimate newsgathering activities. It is not a government credential and does not independently grant access to restricted areas or events.</p></div>
+      <div><a class="btn primary" href="verify-BMN-001.html">Verify BMN-001</a><br><br><a class="btn" href="BMN_Press_Credential_Media_Dossier_v1.1.pdf">Open Credential Dossier</a></div>
+    </div>
+  </div></section>
+
+  <section class="coming"><div class="wrap"><div class="eyebrow">Full Newsroom Site Coming Next</div><h2>This landing page is the front door.</h2><p class="lead" style="margin-left:auto;margin-right:auto">The complete BMN site will later add story pages, reporter profiles, a corrections archive, news-tip intake, publication archives, newsletters and additional credential verification. Until then, BMN's Facebook Page can serve as the primary publishing and messaging channel.</p></div></section>
+
+  <footer class="footer"><div class="wrap inner"><span>© 2026 BarbWire Media Network. All rights reserved.</span><span>Independent Digital News • Public Affairs • Culture</span></div></footer>
+</body>
+</html>
