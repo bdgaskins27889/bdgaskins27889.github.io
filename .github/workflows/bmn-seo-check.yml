@@ -1,0 +1,14 @@
+name: BMN SEO repository checks
+on:
+  pull_request:
+    paths:
+      - 'bmn/**'
+      - '.github/workflows/bmn-seo-check.yml'
+  workflow_dispatch:
+jobs:
+  seo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate BMN metadata and sitemap
+        run: python3 bmn/tools/seo_check.py
