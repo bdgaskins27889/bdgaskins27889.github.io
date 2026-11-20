@@ -14,7 +14,7 @@
     *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,Helvetica,sans-serif;line-height:1.55}
     a{color:inherit;text-decoration:none}.wrap{width:min(1180px,92%);margin:auto}.eyebrow{letter-spacing:.22em;text-transform:uppercase;font-weight:800;font-size:.75rem;color:#ff626b}.muted{color:var(--muted)}
     nav{position:sticky;top:0;z-index:20;background:rgba(7,7,7,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-    nav .inner{height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.05em}.brand img{width:46px;height:46px;border-radius:9px;object-fit:cover}.links{display:flex;gap:22px;font-size:.9rem;color:#ddd}.links a:hover{color:#fff}.pill{border:1px solid #444;padding:9px 14px;border-radius:999px}.pill.red{background:var(--red);border-color:var(--red);font-weight:800}
+    nav .inner{height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.05em}.brand img{width:46px;height:46px;border-radius:9px;object-fit:cover}.links{display:flex;gap:22px;font-size:.9rem;color:#ddd}.links a:hover{color:#fff}.links a:focus-visible{outline:2px solid #fff;outline-offset:4px;border-radius:3px}.pill{border:1px solid #444;padding:9px 14px;border-radius:999px}.pill.red{background:var(--red);border-color:var(--red);font-weight:800}
     header{position:relative;min-height:650px;display:grid;align-items:end;background:linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,.35)),url('assets/bmn-banner.png') center/cover no-repeat;border-bottom:1px solid var(--line)}
     header .hero{padding:90px 0 70px;max-width:760px}h1{font-size:clamp(3rem,7vw,6rem);line-height:.93;margin:.18em 0 .18em;letter-spacing:-.05em}.hero p{font-size:clamp(1.05rem,2vw,1.35rem);max-width:690px;color:#e4e4e4}.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 18px;border-radius:7px;border:1px solid #555;font-weight:800}.btn.primary{background:var(--red);border-color:var(--red)}.btn:hover{transform:translateY(-1px)}
     .strip{border-bottom:1px solid var(--line);background:#0c0c0c}.strip .inner{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line)}.stat{background:#0c0c0c;padding:22px 26px}.stat b{display:block;font-size:1.05rem}.stat span{font-size:.85rem;color:var(--muted)}
@@ -34,7 +34,7 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"BarbWire Media Network","url":"https://bdgaskins27889.github.io/bmn/","logo":"https://bdgaskins27889.github.io/bmn/assets/bmn-logo.png","founder":{"@type":"Person","name":"Barbara D. Gaskins"},"publishingPrinciples":"https://bdgaskins27889.github.io/bmn/editorial-policy/"}</script>
 </head>
 <body>
-  <nav>
+  <nav aria-label="Main navigation">
     <div class="wrap inner">
       <a class="brand" href="#top"><img src="assets/bmn-logo.png" alt="BMN logo"><span>BARBWIRE MEDIA NETWORK</span></a>      <div class="links"><a href="news/">News</a><a href="#about">About</a><a href="#coverage">Coverage</a><a href="publications/">Published Work</a><a href="editorial-policy/">Standards</a><a href="#publisher">Publisher</a><a href="verify-BMN-001.html">Verify BMN-001</a><a class="pill" href="press/">Press</a></div>
     </div>
